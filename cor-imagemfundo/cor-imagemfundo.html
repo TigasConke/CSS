@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cor e Imagem de fundo</title>
+
+    <style>
+
+        .fundo{
+
+            background-color: blueviolet;
+        }
+
+        body{
+
+            background-image: url('lord.jpg'); /* Coloca uma imagem de background */ 
+            background-repeat: repeat; /* Para não repetir a imagem várias vezes, mas poderia ser repeat, repeat-x ou repeat-y */
+            background-attachment: fixed; /*fixed para a imagem ficar fixa como plano de fundo e scroll para a imagem rolar junto com o conteúdo*/
+            background-position: left center ; /* Primeiro valor: left, center e right. Segundo valor: top, center e bottom */
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1 class="fundo">Título 1</h1>
+
+</body>
+</html>
