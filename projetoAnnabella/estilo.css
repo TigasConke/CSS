@@ -6,18 +6,13 @@ body{
 
 }
 
-#principal{
-
-    width: 900px;
-
-}
 
 #sections{
 
     background: rgb(189, 188, 152);
     color: rgb(71, 71, 180);
     padding: 18px;
-    width: 900px;
+    width: 1365px;
 
 }
 
@@ -34,7 +29,7 @@ a{
 
     background: rgb(221, 221, 210);
     padding: 10px;
-    width: 915px;
+    width: 1380px;
 
 }
 
@@ -43,4 +38,19 @@ a{
     font-size: 20px;
     font-weight: 900;
     text-align: center;
+}
+
+h1{
+
+    color: rgb(115, 119, 82);
+    font-size: 1.2em;
+
+}
+
+.img-campanha{
+
+    border-color: rgb(167, 172, 127);
+    border-width: 10px;
+    border-style: solid;
+
 }
