@@ -1,0 +1,46 @@
+body{
+    background: #d2d2c1  url('imagens/fundo.png');
+    background-image: url('imagens/fundo.png');
+    background-attachment: fixed;
+    font: 16px Arial, Helvetica, sans-serif;
+
+}
+
+#principal{
+
+    width: 900px;
+
+}
+
+#sections{
+
+    background: rgb(189, 188, 152);
+    color: rgb(71, 71, 180);
+    padding: 18px;
+    width: 900px;
+
+}
+
+a{
+
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+.format{
+
+    background: rgb(221, 221, 210);
+    padding: 10px;
+    width: 915px;
+
+}
+
+#rodape{
+
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
