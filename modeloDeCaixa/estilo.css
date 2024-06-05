@@ -1,0 +1,48 @@
+.conteudo{
+
+border: 1px solid red;
+padding-top: 20px;
+padding-right: 15px;
+padding-bottom: 5px;
+padding-left: 5px;
+width: 150px;
+
+margin-top: 20px;
+margin-right: 20px;
+margin-left: 20px;
+margin-bottom: 20px;
+
+}
+
+/* ou 
+
+.conteudo{
+
+border: 1px solid red;
+margin: 20px 15px 5px;S
+width: 150px;
+
+}
+
+
+
+ e também:
+
+.conteudo{
+
+    border: 1px solid red;
+    padding: 20px; ---> todos os lados ficam com espaçamento de 20px 
+
+}
+
+
+
+.conteudo{
+
+    border: 1px solid red;
+    padding: 20px 5px; ---> cima e em baixo com espaçamento de 20px e 5px nos lados
+
+}
+
+*/
+
