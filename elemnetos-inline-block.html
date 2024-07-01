@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos inline, block e inline-block</title>
+
+    <style type="text/css">
+
+        .borda{
+
+            border: 1px solid red;
+
+        }
+
+        .borda{
+
+         border: 1px solid red;
+         display: inline-block; /* display pode ser block, inline ou inline-block, obrigando a se comportar como tal */
+
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <h1 class="borda"> Bloco 1 </h1> <!-- Block -->
+    <h1 class="borda"> Bloco 2 </h1> <!-- Block -->
+
+    <span class="borda"> Inline 1 </span> <!-- Inline -->
+    <span class="borda"> Inline 2 </span> <!-- Inline -->
+
+    <span class="borda"> Inline-block 1 </span> <!-- Inline-block -->
+    <span class="borda"> Inline-block 2 </span> <!-- Inline-block -->
+
+</body>
+</html>
