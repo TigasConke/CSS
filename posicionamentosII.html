@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos (static, relative, absolute e fixed)</title>
+
+    <style type="text/css">
+
+        p{
+
+            width: 300px;
+
+        }
+
+        body{
+
+            background: #007fc7;
+
+        }
+
+        #container{
+
+            background: #FFF;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+            position: relative;
+
+        }
+
+        .absolute{
+            /* se sobrepõe aos elementos */
+            border: 1px solid red;
+            background: #f2f2f2;
+            position: absolute; 
+            right: 20px;
+            top: 80px;
+
+        }
+
+        .fixed{
+            /* fica fixo, quando scrolla ele permanece fixo na tela */
+            border: 1px solid red;
+            background: #f2f2f2;
+            position: fixed; 
+            top: 0px;
+            left: 0px;
+            margin-top: 0px;
+            
+
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div id="container">
+
+        <h1>Posicionamentos</h1>
+
+        <p>
+
+            Nam commodo commodo purus, at euismod sem tempus quis. Vivamus ut tellus dapibus diam tempor rhoncus at sed augue. Pellentesque dolor tortor, malesuada id ex eget, porttitor mollis tellus. Pellentesque at turpis sapien. Sed fringilla, urna ac venenatis convallis, lacus purus sagittis leo, in mattis urna arcu eu eros. Integer ullamcorper sem mattis tincidunt interdum. In hac habitasse platea dictumst. Cras vitae erat at tortor convallis efficitur.
+
+        </p>
+
+        <p class="absolute">
+
+            Vestibulum dapibus, mauris ut finibus sodales, libero dui dictum dui, lobortis efficitur neque ligula quis lorem. Ut pulvinar bibendum varius. Mauris non massa justo. Nunc pulvinar lacus ac dignissim tempus. Fusce accumsan lectus eget enim convallis, quis tincidunt ante semper. Vivamus mauris mi, rutrum nec efficitur et, sollicitudin ullamcorper erat. Integer quam ligula, sagittis quis cursus non, egestas ut neque. Pellentesque dignissim quam varius dapibus. Proin tincidunt ullamcorper lorem viverra lobortis. Sed nec est enim. Nam faucibus euismod efficitur sem, in finibus elit fringilla quis. Nunc ultricies vehicula risus sed auctor. Aliquam vel nisl feugiat mauris, vel tincidunt nulla placerat id. Mauris tristique nunc in purus convallis elementum. Donec efficitur risus arcu, at auctor elit posuere eu. Suspendisse vel diam eget felis tempus cursus.
+
+        </p>
+
+        <p class="fixed">
+
+            In in felis diam. Nulla commodo pharetra hendrerit. Nulla ornare nec purus a pharetra. Pellentesque arcu odio, cursus quis dignissim sed, gravida vitae mi. In gravida sapien a tortor pharetra, et pharetra ante auctor.
+
+        </p>
+        
+        
+        <p>
+
+            Vestibulum dapibus, mauris ut finibus sodales, libero dui dictum dui, lobortis efficitur neque ligula quis lorem. Ut pulvinar bibendum varius. Mauris non massa justo. Nunc pulvinar lacus ac dignissim tempus. Fusce accumsan lectus eget enim convallis, quis tincidunt ante semper. Vivamus mauris mi, rutrum nec efficitur et, sollicitudin ullamcorper erat. Integer quam ligula, sagittis quis cursus non, egestas ut neque. Pellentesque dignissim efficitur sem, in finibus elit fringilla quis. Nunc ultricies vehicula risus sed auctor. Aliquam vel nisl feugiat quam varius dapibus. Proin tincidunt ullamcorper lorem viverra lobortis. Sed nec est enim. Nam faucibus euismod mauris, vel tincidunt nulla placerat id. Mauris tristique nunc in purus convallis elementum. Donec efficitur risus arcu, at auctor elit posuere eu. Suspendisse vel diam eget felis tempus cursus.
+
+        </p>
+
+        
+        <p>
+
+            Vestibulum dapibus, mauris ut finibus sodales, libero dui dictum dui, lobortis efficitur neque ligula quis lorem. Ut pulvinar bibendum varius. Mauris non massa justo. Nunc pulvinar lacus ac dignissim tempus. Fusce accumsan lectus eget enim convallis, quis tincidunt ante semper. Vivamus mauris mi, rutrum nec efficitur et, sollicitudin ullamcorper erat. Integer quam ligula, sagittis quis cursus non, egestas ut neque. Pellentesque dignissim efficitur sem, in finibus elit fringilla quis. Nunc ultricies vehicula risus sed auctor. Aliquam vel nisl feugiat quam varius dapibus. Proin tincidunt ullamcorper lorem viverra lobortis. Sed nec est enim. Nam faucibus euismod mauris, vel tincidunt nulla placerat id. Mauris tristique nunc in purus convallis elementum. Donec efficitur risus arcu, at auctor elit posuere eu. Suspendisse vel diam eget felis tempus cursus.
+
+        </p>
+
+        
+        <p>
+
+            Vestibulum dapibus, mauris ut finibus sodales, libero dui dictum dui, lobortis efficitur neque ligula quis lorem. Ut pulvinar bibendum varius. Mauris non massa justo. Nunc pulvinar lacus ac dignissim tempus. Fusce accumsan lectus eget enim convallis, quis tincidunt ante semper. Vivamus mauris mi, rutrum nec efficitur et, sollicitudin ullamcorper erat. Integer quam ligula, sagittis quis cursus non, egestas ut neque. Pellentesque dignissim efficitur sem, in finibus elit fringilla quis. Nunc ultricies vehicula risus sed auctor. Aliquam vel nisl feugiat quam varius dapibus. Proin tincidunt ullamcorper lorem viverra lobortis. Sed nec est enim. Nam faucibus euismod mauris, vel tincidunt nulla placerat id. Mauris tristique nunc in purus convallis elementum. Donec efficitur risus arcu, at auctor elit posuere eu. Suspendisse vel diam eget felis tempus cursus.
+
+        </p>
+
+
+    </div>
+
+</body>
+</html>
