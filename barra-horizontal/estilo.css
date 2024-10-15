@@ -1,0 +1,40 @@
+ul{
+
+    list-style-type: none;    
+    margin: 0;
+    padding: 0;
+    width: 720px;
+    background: #159cb0 url(./imagens/fundo-horizontal.png) repeat-x;
+    float: left;
+
+}
+
+ul li{
+
+    float: left;
+
+}
+
+ul a {
+
+    display: block;
+    padding: 0 2em;
+    line-height: 2.3em;
+    text-decoration: none;
+    color: #fff;
+    background: url(./imagens/divisor.png) repeat-y;
+
+}
+
+ul .primeiro{
+
+    background: none;
+
+}
+
+ul a:hover{
+
+    background: #05e6d3;
+    color: black;
+
+}
